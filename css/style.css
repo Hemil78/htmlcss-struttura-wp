@@ -28,9 +28,15 @@ header{
 }
 
 /* main section-2 */
-.float{
+
+.clearfix{
+    display: table;
+    content:"";
+    clear: both;
+}
+.contenuto{
+    width: 100%;
     margin: 15px 0;
-    width: calc(100% - 30px);
 }
 .top{
     width: 100%;
@@ -48,8 +54,15 @@ header{
 }
 
 .center-50{
-    width: 50%;
     margin: 0 15px;
+    width: calc(50% - 30px);
+}
+
+
+footer{
+    width: 100%;
+    background-color: #8801fe;
+    height: 60px;
 }
 
 /* da cancellare temporanei */
@@ -63,11 +76,7 @@ header{
 
 /* footer */
 
-footer{
-    width: 100%;
-    background-color: #8801fe;
-    height: 60px;
-}
+
 
 
 
