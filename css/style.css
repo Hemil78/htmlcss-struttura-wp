@@ -5,12 +5,9 @@
 }
 
 /* common */
-.container{
-    width: 90%;
-    margin: auto;
-}
 
-.container, .section-1, .section-2, footer{
+
+.section-1, .section-2, footer{
     margin-top: 25px;
 }
 
